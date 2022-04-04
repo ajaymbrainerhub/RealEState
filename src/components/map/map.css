@@ -1,0 +1,98 @@
+.map{
+    width: 50%;
+    height: 100vh;
+}
+.mapp{
+    align-items: center;
+    justify-content: center;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 43px;
+    margin-top: -17.5px;
+    min-width: 403px;
+    padding: 17.5px 35.5px;
+    position: fixed;
+    border: 1px solid blue;
+    background-color: rgba(255,200,200,0.5);  
+    top: 156px;
+    left: 35%;
+    right: 0px;
+}
+.mapFilter {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 10px;
+}
+.mapFilterGroup {
+    background-color: #fff;
+    border-radius: 8px !important;
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 12%);
+    border: none;
+}
+.mapFilterGroup button {
+    padding: 7px 8px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+}
+.mapFilterGroup button svg {
+    height: 14px;
+    margin-right: 5px;
+    width: 14px;
+}
+.mapFilterGroup:first-child button svg {
+    height: 15px;
+    margin: 0 3px;
+    width: 15px;
+}
+.mainMap > div{
+    height: calc(100vh - 122px) !important;
+}
+.hidesubmenu .mainMap > div {
+    height: calc(100vh - 64px) !important;
+}
+.MuiDialog-container .MuiPaper-rounded{
+    border-radius: 10px !important;
+}
+.MuiDialogContent-root {
+    padding: 0 !important;
+}
+.mainMap .gm-style .gm-style-iw-c {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.mainMap .gm-style-iw-d {
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar {
+    width: 1px;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar-track {
+    background: transparent;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.mainMap .gm-style .gm-style-iw-c button[title="Close"] {
+    top: 30px !important;
+    right: 20px !important;
+}
+.mainMap .productDetails {
+    padding: 7px 0;
+}
+.mapFilter button img {
+    height: 16px;
+}
+@media screen and (max-width: 768px) { 
+    .mapFilter {
+        display: none;
+    }
+}

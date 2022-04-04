@@ -1,0 +1,17 @@
+.barndAuth {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.barndAuth-img {
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-left: 12px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+}

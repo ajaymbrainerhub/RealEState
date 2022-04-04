@@ -1,0 +1,26 @@
+.bookingCartModule .cartBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bookingCartModule .cartBtns button {
+    max-width: 450px;
+    width: 100%;
+}
+.bookingCartProduct  {
+    margin: 40px 0;
+}
+.bookingCartProduct .product-Module{
+    margin: 20px 0 0;
+}
+.module-heading__content {
+    font-size: 14px;
+    list-style: 20px;
+    color: #454545;
+    margin-top: 5px;
+}
+.bookingCartProduct .module-heading__title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #454545; 
+}

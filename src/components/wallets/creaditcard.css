@@ -1,0 +1,36 @@
+.creaditCardTemplate {
+    padding: 70px 0;
+}
+.creaditMoneyCard {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 35px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    box-shadow: 0px 0px 20px 0px rgb(42 134 159 / 10%);
+}
+.creaditMoneyCard-Text {
+    color: #454545;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    max-width: 600px;
+    text-align: center;
+}
+.creaditMoneyCard-Text span {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 10px;
+    color: #00c4f8;
+}
+.creaditMoneyCard img {
+    max-width: 300px;
+    margin-bottom: 15px;
+    width: 100%;
+}

@@ -1,0 +1,227 @@
+.agentChatModule {
+    /* position: relative; */
+    height: 100%;
+    padding-bottom: 130px;
+}
+input:focus {
+    outline: none;
+}
+.agentProfile {
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    margin: 15px 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agentProfile-Info {
+    display: flex;
+    align-items: center;
+}
+.agentProfileBox-heading {
+    margin-left: 15px;
+}
+.agentProfileBox-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 600;
+}
+.agentProfileBox-subTitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #454545;
+    font-weight: 500;
+}
+.agentProfileBox-Btn svg {
+    fill: #00a9d6;
+    height: 18px;
+    width: 18px;
+}
+.agentProfileBox-Btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.agentProfileBox-Btn span {
+    cursor: pointer;
+    padding: 3px;
+    height: 24px;
+}
+.agentProfileBox-img {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.agentProfileBox-img img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.sugession-Ans {
+    display: flex;
+    padding: 15px 10px;
+    background: #fff;
+}
+.sugession-AnsBtn {
+    border: 1px solid #00a9d6;
+    color: #1C2D57;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 12px;
+    border-radius: 25px;
+    background: transparent;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+.reciveBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 0;
+}
+.sendBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 8px 0;
+}
+.reciveBlockBtn {
+    padding: 8px 22px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+    font-weight: 500;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 20%);
+}
+.sendBlockOptions {
+    display: flex;
+}
+.sendBlockOptions button {
+    padding: 8px 18px;
+    border-radius: 10px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #444652;
+    cursor: pointer;
+    background-color: #E5FFFA;
+    font-weight: 500;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 12%);
+}
+.sendBlockOptionsBts:last-child {
+    background-color: #FFF4F4;
+}
+.agentSearch input{
+    background: #00A9D6;
+    max-width: 100%;
+    width: 100%;
+    padding: 12px 17px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    height: auto;
+}
+.agentSearch input::placeholder {
+    color: #fff;
+}
+.TypeingBlock {
+    background: #F1F1F1;
+    padding: 12px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.agentChatFooter {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+.TypeingBlockBtn {
+    background: transparent;
+    border: none;
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.TypeingBlockBtn--solid {
+    background: #00a9d6;
+    height: 42px;
+    width: 42px;
+    margin-left: 8px;
+}
+.TypeingBlockBtn--solid svg {
+    fill: #fff;
+    width: 18px;
+    height: 18px;
+}
+.TypeingBlockBtnBox {
+    display: flex;
+    align-items: center;
+}
+.addMediaModule {
+    background: #f1f1f1;
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    right: 0;
+    box-shadow: -4px 0px 14px 0px rgb(0 0 0 / 5%);
+    padding: 20px;
+    z-index: 9;
+    border-radius: 22px 22px 0 0;
+    width: 100%;
+}
+.addMediaModule-List {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+}
+.addMediaModule-item {
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    background: #fff;
+    padding: 18px 7px;
+}
+.addMediaModule-itemIcon svg {
+    fill: #8F9BB3;
+}
+.addMediaModule-itemName {
+    font-size: 13px;
+    font-weight: 500;
+    color: #8F9BB3;
+}
+@media screen and (max-width: 600px) {   
+    .sugession-Ans {
+        overflow-x: scroll;
+    }
+    .addMediaModule {
+        padding: 22px 18px;
+    }
+    .addMediaModule-List {
+        grid-gap: 12px;
+        gap: 12px;
+    }
+    .addMediaModule-item {
+        padding: 15px 10px; 
+    }
+    .addMediaModule-itemName {
+        font-size: 12px;
+    }
+}

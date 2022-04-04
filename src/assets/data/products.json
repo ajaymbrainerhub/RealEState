@@ -1,0 +1,146 @@
+[
+    {
+        "Image" : "1.jpg",
+        "id": 0,
+        "name": "dgrd",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum.",
+        "price": 4343463,
+        "location": "israel jerusalem",
+        "distance": "2322",
+        "bedrooms": 3,
+        "bathroom":2,
+        "type": "apratment",
+        "position": {
+            "lng": 35.209185,
+            "lat": 31.7040256
+        }
+    },
+    {
+        "Image" : "2.jpg",
+        "id": 1,
+        "name": "grdgrdgr",
+        "desc": "very huge Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum.",
+        "price": 4656454,
+        "location": "israel hevron",
+        "distance": "453",
+        "bedrooms": 6,
+        "bathroom":2,
+        "type": "apratment",
+        "position": {
+            "lng": 34.9909185,
+            "lat": 31.5040256
+        }
+    },
+    {
+        "Image" : "3.jpg",
+        "id": 2,
+        "name": "dgrd",
+        "desc": "very big Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum.",
+        "price": 9786876,
+        "location": "israel netanya",
+        "distance": "123",
+        "bedrooms": 5,
+        "bathroom":6,
+        "type": "apratment",
+        "position": {
+            "lng": 34.9909185,
+            "lat": 32.4040256
+        }
+    },
+    {
+        "Image" : "4.jpg",
+        "id": 3,
+        "name": "grdgrd",
+        "desc": "very big hLorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum.ouse",
+        "price": 2222222,
+        "location": "israel jerusalem",
+        "distance": "2342",
+        "bedrooms": 3,
+        "bathroom":2,
+        "type": "apratment",
+        "position": {
+            "lng": 34.9909185,
+            "lat": 31.9040256
+        }
+    },
+    {
+        "Image" : "5.jpg",
+        "id": 4,
+        "name": "ssss",
+        "desc": "very niceLorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum.",
+        "price": 1234321,
+        "location": "israel heifa",
+        "distance": "7656",
+        "bedrooms": 1,
+        "bathroom":0,
+        "type": "apratment",
+        "position": {
+            "lng": 34.9909185,
+            "lat": 32.7040256
+        }
+    },
+    {
+        "Image" : "6.jpg",
+        "id": 5,
+        "name": "grgrdggd",
+        "desc": "very small Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, ducimus voluptatum, at reprehenderit dolorum ut repellat dignissimos laborum deleniti aliquid quod accusamus vitae! Cumque pariatur nobis, sint temporibus alias nostrum.",
+        "price": 6545642,
+        "location": "israel modiein",
+        "distance": "231",
+        "bedrooms": 2,
+        "bathroom":3,
+        "type": "apratment",
+        "position": {
+            "lng": 34.9909185,
+            "lat": 31.4040256
+        }
+    },
+    {
+        "Image" : "7.jpg",
+        "id": 6,
+        "name": "fdgdrd",
+        "desc": "fsefesfes sefesb hfesfesffeouse",
+        "price": 7776664,
+        "location": "israel ashkelon",
+        "distance": "1231",
+        "bedrooms": 6,
+        "bathroom":9,
+        "type": "apratment",
+        "position": {
+            "lng": 34.5909185,
+            "lat": 31.7040256
+        }
+    },
+    {
+        "Image" : "8.jpeg",
+        "id": 7,
+        "name": "hthtfhtgsfe",
+        "desc": "grdgrdgrdrgrd",
+        "price": 3332221,
+        "location": "israel beit shemesh",
+        "distance": "231",
+        "bedrooms": 1,
+        "bathroom":4,
+        "type": "apratment",
+        "position": {
+            "lng": 34.8909185,
+            "lat": 31.7040256
+        }
+    },
+    {
+        "Image" : "9.jpg",
+        "id": 8,
+        "name": "yousof",
+        "desc": "grdgrdgrdgrdgdrg",
+        "price": 1112223,
+        "location": "israel netivot",
+        "distance": "2",
+        "bedrooms": 2,
+        "bathroom":1,
+        "type": "apratment",
+        "position": {
+            "lng": 34.6409185,
+            "lat": 31.4240256
+        }
+    }
+]

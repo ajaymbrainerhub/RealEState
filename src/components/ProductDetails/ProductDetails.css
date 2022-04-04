@@ -1,0 +1,326 @@
+.product-details .container > div {
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.container {
+  padding: 15px;
+}
+.product-details {
+  width: 100%;
+}
+.imagg {
+  width: calc(100% + 40px);
+  border-radius: 0px;
+  margin-left: -20px;
+  margin-top: -25px;
+}
+.header,
+.product-details {
+  justify-content: space-between;
+}
+.footer {
+  flex-direction: row;
+  display: flex;
+}
+.footer > div {
+  padding: 5px;
+}
+.information {
+  width: 500pt;
+  height: 167pt;
+  background-color: #fff;
+  padding-top: 17px;
+}
+.headInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headInfoUser {
+  display: flex;
+  align-items: center;
+}
+.userImgBlock {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userImgBlock img {
+  height: 100%;
+}
+.headInfoUser h1 {
+  margin-left: 15px;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.input {
+  width: calc(100% - 185px);
+  background: #fff;
+  border: 1px solid #BABABA;
+  padding: 6px 15px;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 0;
+  height: 36px;
+}
+.moreDetails {
+  color: #ffffff;
+    background-color: #008db2;
+    border-radius: 10pt;
+    text-decoration: none;
+    padding: 8px 15px;
+    height: 36px;
+    /* min-width: 170px; */
+    text-align: center;
+    border: none;
+    margin-left: 12px;
+    justify-content: center;
+    align-items: center;      
+    white-space: nowrap;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+.helpInfo {
+  display: flex;
+  align-items: flex-end;
+}
+.helpInfo svg {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+.helpInfo > p,
+.helpInfo > label {
+  color: #444652;
+  /* opacity: 80%; */
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 0;
+  position: relative;
+}
+.helpInfo > label {
+  padding-left: 25px;
+  cursor: pointer;
+}
+.helpInfo > label::before {
+  border: 1px solid #008db2;
+  border-radius: 5px;
+  height: 15px;
+  width: 15px;
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+.helpInfo > label::after {
+  content: '';
+  height: 2px;
+  width: 7px;
+  border-left: 3px solid #008db2;
+  display: inline-block;
+  border-bottom: 3px solid #008db2;
+  transform: rotate(-35deg);
+  position: absolute;
+  left: 4px;
+  top: 5px;
+  display: none;
+}
+.helpInfo input {
+  display: none;
+}
+.helpInfo input:checked + label::after {
+  display: inline-block;
+}
+.neighborhood-details-img {
+  height: auto;
+  width: 44%;
+  margin-left: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.new-icons {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 5px;
+}
+.new-icons img, .new-icons svg {
+  width: 20px !important;
+  fill: #008db2;
+  height: 20px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+.new-icons img {
+  width: 28px !important;
+}
+.new-icons span {
+  font-size: 12px;
+}
+.new-icons svg path {
+  fill: #008db2;
+}
+.zoom {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  justify-content: space-between;
+}
+.product-num{
+  font-size:1.5rem;
+  width: 20px;
+height: 25px;
+}
+.icon {
+  width: 20px;
+  height: 25px;
+  margin-right: 2px;
+  /* margin-top: 2px; */
+}
+.icon-location{
+  height: 15px;
+  width: 15px;
+  margin-right: 2px;
+}
+.cards {
+  margin: 25px 0;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  gap: 15px;
+  margin-bottom: 30px !important;
+}
+.card {
+  padding: 12px 10px;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 0;
+  box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 12%)
+}
+.card:last-child {
+  margin-right: 0px;
+}
+.card p{
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 2px;
+}
+.card .icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 !important;
+}
+.desc h3{
+  font-size: 16px;
+}
+.desc p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 3px;
+}
+.information,
+.neighborhood-details {
+  box-shadow: 0px 2px 8px 0px rgb(0 0 0 / 12%);
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  margin-top: 22px;
+}
+.helpBtnBlock {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.inputInfo {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+}
+.inputInfo input{
+  width: 100%;
+  max-width: 100%;
+}
+.neighborhood-detailsInner {
+  display: flex;
+  justify-content: space-between;
+}
+.neighborhood-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.neighborhood-info h2 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #000000;
+}
+.neighborhood-info h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #444652;
+}
+.neighborhood-infoLink {
+  color: #008DB2;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.neighborhood-infoLink svg {
+  width: 14px;
+  height: 14px;
+  margin-bottom: -4px;
+}
+.iconHeading {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.iconHeading-info {
+  margin-left: 15px;
+}
+.iconHeading-title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+.iconHeading-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #444652;
+  margin: 0;
+}
+@media screen and (max-width: 600px) {  
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .headInfo {
+    flex-wrap: wrap;
+  }
+  .headInfoUser {
+    width: 100%;
+  }
+}

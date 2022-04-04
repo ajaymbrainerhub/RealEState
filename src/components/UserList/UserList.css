@@ -1,0 +1,130 @@
+.sidebarMainList {
+    position: sticky;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 9;
+    padding: 25px 0;
+    top: -25px;
+}
+.user-list{
+    padding: 15px 0 0;
+    margin-right: -20px;
+    margin-bottom: 25px;
+}
+.user-list li {
+    width: 55px !important;
+    height: 55px;
+    margin-right: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.user-list .imgg{
+    border-radius: 10px;
+    height: 55px;
+    left: 0;
+    object-fit: cover;
+    cursor: pointer;
+    top: 0;
+    width: 55px;
+}
+.product-details .imgg {
+    width: calc(100% + 40px);
+    border-radius: 0px;
+    margin-left: -20px;
+    margin-top: -25px;
+}
+.sidebarTitle {
+    color: #191A1E;
+    font-size: 22px;
+    line-height: 31px;
+    font-weight: 500;
+}
+.user-list .imgg + span {
+    box-shadow: 0 0 0 3px #fff;
+    bottom: 3px;
+    right: 3px;
+}
+.user-list .imgg + span::after {
+    top: -1px;
+    left: -1px;
+}
+.sidebarHeading {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5px;
+}
+.sidebarText {
+    font-size: 19px;
+    color: #002652;
+    line-height: 30px;
+    font-weight: 500;
+}
+.sidebarHeading .MuiChip-root {
+    background: #EFF0F2;
+}
+.sidebarHeading .MuiChip-root span {
+    color: #002652;
+    font-weight: 500;
+}
+.user-list .react-multiple-carousel__arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.user-listName {
+    font-size: 13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    background: #00a9d6b3;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s all ease;
+}
+.user-list li:hover .user-listName{
+    opacity: 1;
+}
+.sidebarMainList .react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #454545;
+}
+.sidebarMainList .react-tabs__tab--selected {
+    background: #fff;
+    border-color: #ddd;
+    color: #00a9d6;
+}
+.sidebarMainList .react-tabs__tab-list {
+    border-bottom: 1px solid #ddd;
+}
+@media screen and (max-width: 991px) {  
+    .sidebarMainList {
+        position: static;
+    }
+    
+}
+@media screen and (max-width: 768px) { 
+    .sidebarMainList .react-tabs__tab { 
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,18 @@
+<svg id="_154" data-name="154" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_154_Background_Mask_" data-name="154 (Background/Mask)" width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="_154_Background_Mask_2" data-name="154 (Background/Mask)" width="16" height="16" fill="none"/>
+  <g id="_154-2" data-name="154" clip-path="url(#clip-path)">
+    <g id="Group" transform="translate(2 3)">
+      <path id="Vector" d="M0,5V.963A.974.974,0,0,1,.982,0H9.018A.974.974,0,0,1,10,.963V5H0Z" transform="translate(1)" fill="none" stroke="#c4c4c4" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="0 0"/>
+      <path id="Vector-2" data-name="Vector" d="M0,3V1.14A1.211,1.211,0,0,1,1.276,0h9.449A1.211,1.211,0,0,1,12,1.14V3Z" transform="translate(0 5)" fill="none" stroke="#c4c4c4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="0 0"/>
+      <path id="Vector-3" data-name="Vector" d="M.308,2C.137,2,0,1.784,0,1.516V.484C0,.216.137,0,.308,0H2.192C2.363,0,2.5.216,2.5.484V1.516c0,.268-.137.484-.308.484Z" transform="translate(3 3)" fill="none" stroke="#c4c4c4" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="0 0"/>
+      <path id="Vector-4" data-name="Vector" d="M.308,2C.137,2,0,1.784,0,1.516V.484C0,.216.137,0,.308,0H2.192C2.363,0,2.5.216,2.5.484V1.516c0,.268-.137.484-.308.484Z" transform="translate(7 3)" fill="none" stroke="#c4c4c4" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="0 0"/>
+      <path id="Vector-5" data-name="Vector" d="M.766,2A.761.761,0,0,1,0,1.245V.755A.761.761,0,0,1,.766,0h.468A.761.761,0,0,1,2,.755v.49A.776.776,0,0,1,1.224,2Z" transform="translate(1 8)" fill="none" stroke="#c4c4c4" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="0 0"/>
+      <path id="Vector-6" data-name="Vector" d="M.766,2A.761.761,0,0,1,0,1.245V.755A.761.761,0,0,1,.766,0h.468A.761.761,0,0,1,2,.755v.49A.761.761,0,0,1,1.234,2Z" transform="translate(9 8)" fill="none" stroke="#c4c4c4" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="0 0"/>
+    </g>
+  </g>
+</svg>

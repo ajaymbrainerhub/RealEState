@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <g id="coin_2_" data-name="coin (2)" transform="translate(0 0.407)">
+    <circle id="Ellipse_33" data-name="Ellipse 33" cx="14.5" cy="14.5" r="14.5" transform="translate(0 -0.407)" fill="#fabe2c"/>
+    <path id="Path_910" data-name="Path 910" d="M270.223,14.223A14.263,14.263,0,0,0,256,0V28.446A14.263,14.263,0,0,0,270.223,14.223Z" transform="translate(-241.777)" fill="#ff9100"/>
+    <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="11" cy="10.5" rx="11" ry="10.5" transform="translate(3 3.593)" fill="#fed843"/>
+    <path id="Path_911" data-name="Path 911" d="M266.834,71.834A10.847,10.847,0,0,0,256,61V82.668A10.847,10.847,0,0,0,266.834,71.834Z" transform="translate(-241.777 -57.611)" fill="#fabe2c"/>
+    <path id="Path_912" data-name="Path 912" d="M141.184,126.819a.834.834,0,0,0-.673-.567l-3.947-.574L134.8,122.1a.867.867,0,0,0-1.494,0l-1.766,3.577-3.947.574a.833.833,0,0,0-.462,1.421l2.857,2.785-.674,3.932a.833.833,0,0,0,1.209.878l3.531-1.856,3.531,1.856a.833.833,0,0,0,1.209-.878l-.675-3.932,2.857-2.785A.834.834,0,0,0,141.184,126.819Z" transform="translate(-119.827 -114.914)" fill="#fabe2c"/>
+    <path id="Path_913" data-name="Path 913" d="M260.41,135.2a.833.833,0,0,0,.331-.815l-.675-3.932,2.857-2.785a.833.833,0,0,0-.462-1.421l-3.947-.574-1.766-3.577a.813.813,0,0,0-.747-.427v11.738l3.531,1.856A.828.828,0,0,0,260.41,135.2Z" transform="translate(-241.778 -114.914)" fill="#ff9100"/>
+  </g>
+</svg>

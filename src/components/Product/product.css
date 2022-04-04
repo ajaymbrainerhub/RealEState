@@ -1,0 +1,223 @@
+.appProductDetails {
+    padding: 70px 0;
+}
+.appProductDetails-img {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.appProductDetails-img img {
+    width: 100%;
+}
+.appProductDetails-tool {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px;
+}
+.appProductDetails-tool span {
+    padding: 3px;
+}
+.reportIcon svg{
+    fill: red;
+    height: 24px;
+    width: 24px;
+}
+.pinIcon svg{
+    fill: orange;
+    height: 24px;
+    width: 24px;
+}
+.appProductDetails-infoHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+.appProductDetails-infoFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.appProductDetails-infoFooter button{
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    text-transform: capitalize;
+    border: 1px solid #00c4f8;
+    box-shadow: none;
+    background-color: #00c4f8;
+}
+.lightBlueBtn {
+    border: 1px solid #00c4f8 !important;
+    background-color: #00c4f8 !important;
+}
+.darkBlueBtn {
+    border: 1px solid #0d6780 !important;
+    background-color: #0d6780 !important;
+}
+.orangeBtn {
+    border: 1px solid #f8a100 !important;
+    background-color: #f8a100 !important;
+}
+.greenBtn {
+    border: 1px solid #4cfa55 !important;
+    background-color: #4cfa55 !important;
+}
+.appProductDetails-infoBody {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+.appProductDetails-content p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #454545;
+}
+.appProductDetails-subtitle {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.appProductDetails-brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-bottom: 25px;
+}
+.appProductDetails-brandImg {
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-left: 12px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+}
+.appProductDetails-Date {
+    display: flex;
+    align-items: center;
+}
+.appProductDetails-Date svg {
+    fill: #4cfa55;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.product_date_picker_closeIcon {
+    display: inline-block;
+    float: left;
+    width: 25px;
+    margin-right: 10px;
+    background-color: white;
+}
+.product_date_picker_Title {
+    display: inline-block;
+    float: left;
+    width: calc(100% - 50px);
+    text-align: center;
+}
+.product_date_picker_Title_date {
+    color: #00C4F8;
+    font-weight: 800;
+    font-size: 21px;
+}
+.product_date_picker.MuiBox-root {
+    background: #f2f2f2;
+}
+.product_date_calender {
+    background-color: white;
+}
+.product_date_calender .css-1dozdou {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0;
+    background: #f2f2f2;
+}
+.product_date_calender {
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.product_date_calender .PrivatePickersFadeTransitionGroup-root {
+    background: #f2f2f2;
+}
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root {
+    border-radius: 10px !important;
+    margin: 3px;
+    width: 33px;
+    height: 33px;
+}
+.product_date_picker_footer_text {
+    text-align: right;
+    margin-top: 40px;
+}
+.product_date_picker_footer_text .strong span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.product_date_picker_footer_text .text span {
+    display: block;
+}
+.footer-button button.MuiButton-root.dark-button {
+    background: #00374d;
+    padding: 6px 5px;
+}
+.footer-button button.MuiButton-root.light-button {
+    background: #00C4F8;
+}
+.footer-button button.MuiButton-root {
+    width: 46%;
+    margin: 2%;
+}
+.footer-button {
+    margin-top: 20px;
+}
+.product_date_picker button.MuiButtonBase-root.MuiPickersDay-root.Mui-selected.MuiPickersDay-dayWithMargin.MuiPickersDay-today.css-195y93z-MuiButtonBase-root-MuiPickersDay-root {
+    background: #00f89d;
+    border-radius: 10px;
+}
+.clear {
+    clear: both;
+    height: 0;
+}
+.product_secoend_left {
+    width: 45%;
+    float: left;
+    margin-right: 2%;
+    padding-top: 12px;
+}
+.product_secoend_right {
+    width: 53%;
+    float: left;
+}
+.product_secoend_left input.MuiOutlinedInput-input.MuiInputBase-input {
+    padding: 4px;
+    color: red;
+    border: 1px solid gray;
+}
+.product_secoend {
+    background: #ffffff;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.product_secoend_right {
+    font-size: 23px;
+    font-weight: 600;
+    color: gray;
+    text-align: right;
+}
+.product_secoend_left .css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+    width: 100% !important;
+    min-width: 95px !important;
+}

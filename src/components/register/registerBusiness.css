@@ -1,0 +1,271 @@
+[type="file"]::-webkit-file-upload-button {
+    height: 0;
+    width: 0;
+    transition: all 1s ease;
+    overflow: hidden;
+    padding: 0;
+  }
+  [type="file"] {
+    background: transparent;
+    border: none;
+    padding: 10px;
+  }
+  
+  [type="file"]::-webkit-file-upload-button:hover {
+    background: #fff;
+    border: 2px solid #535353;
+    color: #000;
+  }
+  
+  .selectFileImg {
+    display: flex;
+    height: 45px;
+    margin-bottom: 18px !important;
+    margin-left: 10px;
+  }
+  
+  .selectFileImg .MuiIconButton-root {
+    background-color: #ddd;
+    border-radius: 20px;
+  }
+  .selectFileImg .MuiIconButton-root svg {
+    fill: #000;
+  }
+  
+  .mainContent {
+    background-color: #f0f4f5;
+    padding: 15px;
+    min-height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mainHeading {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .mainTitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+  }
+  .mainText {
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    margin-top: 15px;
+  }
+  .inputStyle {
+    width: 100% !important;
+    margin-bottom: 18px !important;
+  }
+  .inputStyle label {
+    line-height: 14px;
+    font-size: 14px;
+    top: -4px;
+  }
+  .inputStyle .MuiOutlinedInput-notchedOutline {
+    border-radius: 50px;
+  }
+  .inputStyle .MuiOutlinedInput-root {
+    height: 45px;
+  }
+  .inputStyle--small {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 75px;
+  }
+  .inputStyle-slect {
+    border: 1px solid #bbb;
+    border-radius: 60px;
+    padding: 0 20px;
+  }
+  .inputStyle-slect::before,
+  .inputStyle-slect::after {
+    display: none !important;
+  }
+  .inputStyle-slect .MuiSelect-icon {
+    right: 7px;
+  }
+  .formRow {
+    display: flex;
+    margin: 0 -8px;
+  }
+  .formRow .inputStyle {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    border: none;
+    margin-top: 0;
+  }
+  .CheckLinkBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0px !important;
+    
+  }
+  .CheckLinkBlock .MuiFormControlLabel-root {
+    margin: 0;
+  }
+  .CheckLinkBlock .MuiCheckbox-root {
+    padding: 0;
+    margin-right: 8px;
+  }
+  .CheckLinkBlock .MuiFormControlLabel-root svg {
+    width: 17px;
+    height: 17px;
+  }
+  .CheckLinkBlock .MuiFormControlLabel-label {
+    font-size: 14px;
+    color: #555;
+  }
+  .about-you{
+    width: 100% !important;
+    height: 120px !important;
+    border-radius: 25px !important;
+    margin: 10px 10px 10px !important;
+    padding-left: 10px !important;
+    padding: 10px !important;
+    border: 1px solid #bbb;
+  }
+  
+  .btns{
+    width: 100% !important;
+  }
+  .ragiserForm .loginBtn {
+    width: 60% !important;
+    height: 40px;
+    border-radius: 50px !important;
+    /* padding: 10px 15px !important; */
+    text-transform: capitalize !important;
+    text-align: center;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #fff !important;
+    background-color: #00c4f8 !important;
+    font-weight: 600 !important;
+    /* margin-left: 8px !important; */
+    margin-right: 8px !important;
+    padding: 0 20px;
+  }
+  .GetStartedBtn {
+    width: 35% !important;
+    height: 40px;
+    border-radius: 50px !important;
+    /* padding: 10px 15px !important; */
+    padding: 0 20px;
+    text-transform: capitalize !important;
+    text-align: center;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    background-color: #fff !important;
+    border: #00c4f8 solid 1px !important;
+    color: #00c4f8 !important;
+    font-weight: 600 !important;
+    margin-left: 8px !important;
+    /* margin-right: 8px !important; */
+  }
+  
+  
+  
+  .registerHeading {
+    margin: 30px 0;
+    text-align: center;
+  }
+  .registerHeading-title{
+    font-size: 30px;
+    line-height: 22px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .registerHeading-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    margin-top: 15px;
+  }
+  .ragiserForm {
+    padding: 0;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 5%);
+    margin: 15px 0;
+    border-radius: 12px !important;
+    max-width: 100%;
+  }
+  .registerFormBtn {
+    padding: 15px;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 5%);
+    margin: 15px 0 40px;
+    border-radius: 12px;
+  }
+  .registerFormBtn button {
+    height: 40px;
+    background-color: #00a9d6;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .registerForm-loginBtn {
+    width: 105px;
+    background-color: #eee !important;
+    color: #000 !important;
+    height: 40px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    margin-right: 15px !important;
+  }
+  .registerForm-GetStartedBtn {
+    width: calc(100% - 120px);
+    height: 40px;
+    background-color: #00a9d6 !important;
+    border-radius: 50px !important;
+    border: none !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+  }
+  .CheckLinkBlock p {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .formLabel {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+  }
+  .inputStyle-slectImg {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    overflow: auto;
+    border-radius: 0;
+  }
+  @media screen and (max-width: 600px) { 
+    .formRow .inputStyle {
+      margin-left: 3px !important;
+      margin-right: 3px !important;
+    }
+    .about-you {
+      width: auto !important; 
+    }
+    .formRow {
+      margin: 0;
+      flex-direction: column;
+    }
+    .inputStyle--small {
+      flex-basis: auto !important;
+    }
+    .formLabel {
+      padding: 0 10px;
+    }
+  }

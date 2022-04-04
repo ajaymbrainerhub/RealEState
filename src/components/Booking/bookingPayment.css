@@ -1,0 +1,31 @@
+.sucess_screen_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 90px);
+}
+.sucess_screen_image {
+    height: calc(100vh - 300px);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sucess_screen_inner {
+    text-align: center;
+}
+.sucess_screen_button {
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+.sucess_screen_button .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #00c4f8 !important;
+}
+.sucess_screen_inner {
+    position: relative;
+    top: 30px;
+}

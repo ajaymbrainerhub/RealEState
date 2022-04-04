@@ -1,0 +1,178 @@
+.mainContent{
+    background-color: #F0F4F5;
+    padding: 15px;
+    min-height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainHeading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mainTitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+.mainText {
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    margin-top: 10px;
+}
+.inputStyle {
+    width: 100% !important;
+    margin-bottom: 5px !important;
+}
+.inputStyle label{
+    line-height: 14px;
+    font-size: 14px;
+    top: -4px;
+}
+.inputStyle .MuiOutlinedInput-notchedOutline {
+    border-radius: 50px;
+}
+.inputStyle .MuiOutlinedInput-root {
+    height: 45px;
+}
+.inputStyle--small {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 55px;
+}
+.inputStyle-slect {
+    border: 1px solid #0000006b;
+    border-radius: 60px;
+    padding: 0 0px;
+    height: 42px;
+    margin-top: 12px;
+}
+.inputStyle-slect::before,
+.inputStyle-slect::after {
+    display: none !important;
+}
+.inputStyle-slect .MuiSelect-icon {
+    right: 7px;
+}
+.inputStyle-slect .MuiSelect-select {
+    padding: 8px 12px !important;
+    color: #000 !important;
+    min-height: 0 !important;
+}
+.inputStyle-slect .MuiSelect-select:focus{
+    background-color: transparent !important;
+}
+.formRow {
+    display: flex;
+    margin: 0 -8px;
+}
+.formRow .inputStyle{
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+}
+.CheckLinkBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CheckLinkBlock .MuiFormControlLabel-root {
+    margin: 0;
+}
+.CheckLinkBlock .MuiCheckbox-root {
+    padding: 0;
+    margin-right: 8px;
+}
+.CheckLinkBlock .MuiFormControlLabel-root svg {
+    width: 17px;
+    height: 17px;
+}
+.CheckLinkBlock .MuiFormControlLabel-label {
+    font-size: 14px;
+    color: #555;
+}
+.inputStyle .MuiInput-underline{
+    margin-top: 5px;
+    padding: 6px 17px;
+}
+.inputStyle .MuiInput-underline::before {
+    border: 1px solid #0000006b;
+    height: 100%;
+    border-radius: 60px;
+}
+.inputStyle .MuiInput-underline:hover:before{
+    border: 1px solid #0000006b !important;
+}
+.inputStyle .MuiInput-underline::after {
+    border: 2px solid #3f51b5;
+    pointer-events: none;
+    height: 100%;
+    border-radius: 60px;
+}
+.inputStyle .MuiInput-underline.Mui-error:after {
+    border-color: #f44336 !important;
+}
+.inputStyle label{
+    line-height: 14px;
+    font-size: 14px;
+    top: -6px;
+    left: 8px;
+    background-color: #fff;
+    z-index: 11;
+    padding: 5px;
+    border-radius: 50px;
+}
+.inputLabel {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin: 8px 0 5px;
+}
+.textAreaBox {
+    border: 1px solid #0000006b;
+    border-radius: 20px;
+    padding: 8px 10px;
+    width: 100%;
+    height: 65px;
+}
+.formButtons {
+    margin-top: 15px;
+    display: flex;
+}
+.blueBtn {
+    width: 100%;
+    border-radius: 55px !important;
+    padding: 10px 15px !important;
+    text-transform: capitalize !important;
+    text-align: center;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #fff !important;
+    background-color: #00c4f8 !important;
+    font-weight: 600 !important;
+}
+.grayBtn {
+    border-radius: 55px !important;
+    padding: 10px 30px !important;
+    text-transform: capitalize !important;
+    text-align: center;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #000 !important;
+    background-color: #eee !important;
+    font-weight: 600 !important;
+    margin-right: 10px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .formRow {
+        display: block;
+        margin: 0;
+    }
+    .formRow .inputStyle {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}

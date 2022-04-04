@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.412" height="18.673" viewBox="0 0 16.412 18.673">
+  <g id="location" transform="translate(-31)">
+    <g id="Group_156" data-name="Group 156" transform="translate(33.188)">
+      <g id="Group_155" data-name="Group 155">
+        <path id="Path_43" data-name="Path 43" d="M97.018,0a6.015,6.015,0,0,0-4.892,9.519l4.431,6.914a.547.547,0,0,0,.921,0l4.45-6.938A6.018,6.018,0,0,0,97.018,0Zm0,8.753a2.735,2.735,0,1,1,2.735-2.735A2.739,2.739,0,0,1,97.018,8.753Z" transform="translate(-91)" fill="#008db2"/>
+      </g>
+    </g>
+    <g id="Group_158" data-name="Group 158" transform="translate(31 12.571)">
+      <g id="Group_157" data-name="Group 157">
+        <path id="Path_44" data-name="Path 44" d="M43.483,344.7,40.728,349a1.809,1.809,0,0,1-3.045,0L34.924,344.7c-2.428.561-3.924,1.59-3.924,2.818,0,2.132,4.228,3.282,8.206,3.282s8.206-1.15,8.206-3.282C47.412,346.285,45.913,345.256,43.483,344.7Z" transform="translate(-31 -344.695)" fill="#008db2"/>
+      </g>
+    </g>
+  </g>
+</svg>

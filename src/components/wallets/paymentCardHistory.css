@@ -1,0 +1,86 @@
+.filterBlock-headBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+.filterBlock-headBtns svg {
+    fill: #000;
+}
+.filterSidebarInner {
+    padding: 0 10px;
+}
+.filterSidebarInner ul {
+    padding: 0;
+    margin-top: 12px;
+}
+.filterSidebarInner ul li {
+    padding: 5px 0;
+}
+.filterSidebarInner ul li p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+.filterSidebarInner ul li .MuiCheckbox-root,
+.summaryCard-List .MuiCheckbox-root {
+    padding: 2px;
+}
+.filterSidebarInner .Mui-checked .MuiIconButton-label,
+.summaryCard-List .Mui-checked .MuiIconButton-label {
+    border: 2px solid #00c4f8;
+}
+.filterSidebarInner .MuiIconButton-label,
+.summaryCard-List .MuiIconButton-label{
+    height: 18px;
+    width: 18px;
+    border: 2px solid #bbb;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.filterSidebarInner .MuiIconButton-label svg path,
+.summaryCard-List .MuiIconButton-label svg path{
+    fill: #00c4f8;
+}
+.shoperBox {
+    width: 55px;
+    margin-right: 12px;
+    text-align: center;
+}
+.shoperBox-Img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.shoperslider {
+    margin: 20px 0;
+}
+.shoperBox-Img img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.shoperBox-title {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 8px 0 0;
+}
+.shoperBox-rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #454545;
+    margin: 8px 0 0;
+}
+.shoperBox-rate svg {
+    fill: #f79400;
+    margin-right: 3px;
+    width: 16px;
+    height: 16px;
+}

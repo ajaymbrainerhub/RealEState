@@ -1,0 +1,132 @@
+.mainContent{
+    background-color: #F0F4F5;
+    padding: 15px;
+    min-height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainHeading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mainTitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+.mainText {
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    margin-top: 10px;
+}
+.cardStyle{
+    max-width: 425px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 3%);
+    border: none !important;
+    border-radius: 15px !important;
+}
+.inputStyle {
+    width: 100% !important;
+    margin-bottom: 5px !important;
+}
+
+.inputStyle .MuiOutlinedInput-notchedOutline {
+    border-radius: 50px;
+}
+.inputStyle .MuiOutlinedInput-root {
+    height: 45px;
+}
+.loginBtn{
+    background-color: pink;
+    border-radius: 50px;
+    width: 50px;
+}
+.CheckLinkBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CheckLinkBlock .MuiFormControlLabel-root {
+    margin: 0;
+}
+.CheckLinkBlock .MuiCheckbox-root {
+    padding: 0;
+    margin-right: 8px;
+}
+.CheckLinkBlock .MuiFormControlLabel-root svg {
+    width: 17px;
+    height: 17px;
+}
+.CheckLinkBlock .MuiFormControlLabel-label {
+    font-size: 14px;
+    color: #555;
+}
+.CheckLinkBlock .MuiCheckbox-colorSecondary.Mui-checked {
+    color: #00c4f8 !important;
+}
+.forgotLink {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-transform: capitalize !important;
+    padding: 0 !important;
+    color: #00c4f8 !important;
+}
+.formBtn {
+    margin-top: 20px;
+}
+.blueBtn {
+    width: 100%;
+    border-radius: 55px !important;
+    padding: 10px 15px !important;
+    text-transform: capitalize !important;
+    text-align: center;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #fff !important;
+    background-color: #00c4f8 !important;
+    font-weight: 600 !important;
+}
+.bottomLinks {
+    padding: 10px 20px !important;
+    font-size: 14px;
+    color: #000;
+    box-shadow: none;
+    border-radius: 0 0 15px 15px;
+}
+.inputStyle .MuiInput-underline{
+    margin-top: 5px;
+    padding: 6px 17px;
+}
+.inputStyle .MuiInput-underline::before {
+    border: 1px solid #0000006b;
+    height: 100%;
+    border-radius: 60px;
+}
+.inputStyle .MuiInput-underline:hover:before{
+    border: 1px solid #0000006b !important;
+}
+.inputStyle .MuiInput-underline::after {
+    border: 2px solid #3f51b5;
+    pointer-events: none;
+    height: 100%;
+    border-radius: 60px;
+}
+.inputStyle .MuiInput-underline.Mui-error:after {
+    border-color: #f44336 !important;
+}
+.inputStyle label{
+    line-height: 14px;
+    font-size: 14px;
+    top: -6px;
+    left: 8px;
+    background-color: #fff;
+    z-index: 11;
+    padding: 5px;
+    border-radius: 50px;
+}

@@ -1,0 +1,104 @@
+.addcart_btn{
+    border-radius: 20px;
+    background-color:#1AABE3 !important;
+    color: white !important;
+}
+.buynow_btn{
+    border-radius: 20px;
+    background-color:#00374d !important;
+    color: white !important;
+}
+
+.productDetailsModule {
+    padding: 60px 0;
+}
+.productDetails-img img{
+    width: 100%;
+}
+.productDetails-heading {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.productDetails-title {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+.productDetails-price {
+    font-size: 20px;
+    color: #00c4f8;
+    font-weight: 600;
+    margin: 0;
+}
+.productDetails-price span {
+    font-size: 26px;
+    color: #000;
+    font-weight: 700;
+}
+.productDetails-content {
+    margin-bottom: 35px;
+}
+.productDetails-contentTitle {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+.productDetails-contentText {
+    font-size: 16px;
+    line-height: 24px;
+    color: #888;
+    margin-bottom: 0;
+}
+.productDetails-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+.productDetails-btns button {
+    padding: 10px 12px;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+}
+.productDetails-List {
+    margin: 30px 0;
+}
+.productDetails-ListItem {
+    font-size: 16px;
+    line-height: 24px;
+    color: #555;
+    margin-bottom: 3px;
+}
+.productDetails-ListItem strong {
+    color: #000;
+    font-weight: 600;
+}
+.productDetails-brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.productDetails-brandImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    overflow: hidden;
+}
+.productDetails-brandImage img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.productDetails-brandName {
+    font-size: 16px;
+    line-height: 24px;
+    color: #888;
+    margin-bottom: 0;
+}

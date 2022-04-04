@@ -1,0 +1,417 @@
+.map{
+    width: 50%;
+    height: 100vh;
+}
+.mapp{
+    align-items: center;
+    justify-content: center;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 43px;
+    margin-top: -17.5px;
+    min-width: 403px;
+    padding: 17.5px 35.5px;
+    position: fixed;
+    border: 1px solid blue;
+    background-color: rgba(255,200,200,0.5);  
+    top: 156px;
+    left: 35%;
+    right: 0px;
+}
+.mapFilter {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 10px;
+}
+.mapFilterGroup {
+    background-color: #fff;
+    border-radius: 8px !important;
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 12%);
+    border: none;
+}
+.mapFilterGroup button {
+    padding: 7px 8px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+}
+.mapFilterGroup button svg {
+    height: 14px;
+    margin-right: 5px;
+    width: 14px;
+}
+.mapFilterGroup:first-child button svg {
+    height: 15px;
+    margin: 0 3px;
+    width: 15px;
+}
+.mainMap > div{
+    height: calc(100vh - 66px) !important;
+}
+.MuiDialog-container .MuiPaper-rounded{
+    border-radius: 10px !important;
+}
+.MuiDialogContent-root {
+    padding: 0 !important;
+}
+.mainMap .gm-style .gm-style-iw-c {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.mainMap .gm-style-iw-d {
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar {
+    width: 1px;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar-track {
+    background: transparent;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.mainMap .gm-style-iw-d::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.mainMap .gm-style .gm-style-iw-c button[title="Close"] {
+    top: 30px !important;
+    right: 20px !important;
+}
+.sidebarTamplate {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+.sidebarModule {
+    width: 100%;
+    /* height: calc(100vh - 65px); */
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+.sidebarModule::-webkit-scrollbar {
+    width: 4px;
+}
+/* Track */
+.sidebarModule::-webkit-scrollbar-track {
+background: #fff;
+}
+/* Handle */
+.sidebarModule::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.rightModule {
+    width: 100%;
+    position: relative;
+    height: auto;
+    /* overflow-y: scroll; */
+    background: #fff;
+}
+.sidebarTamplate .mainheader {
+    display: none;
+}
+.sidebarModule .product-Module {
+    grid-template-columns: 1fr 1fr;
+}
+.sidebarModule .caseback-center .styles-module_slider__o0fqa,
+.allCategory .caseback-center .styles-module_slider__o0fqa{
+    display: flex;
+}
+.sidebarModule .caseback-box,
+.sidebarModule .allCategory .featuredProduct-box {
+    width: 300px;
+}
+.mobilePageTabs {
+    display: none;
+}
+
+
+.product-preview{
+    cursor: pointer;
+    border-radius: 10px;
+    border: #F2F2F2 solid 1px;
+    padding: 15px 15px;
+    position: relative;
+    background-color: #fff;
+    z-index: 0;
+}
+.product-preview-status {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-preview-status .MuiChip-root {
+    background: #444652BE;
+    border-radius: 10px;
+    color: #fff;
+    height: 27px;
+}
+.product-preview-status .MuiChip-root span {
+    font-size: 12px;
+}
+.product-preview>div{
+    margin-bottom: 10px;
+}
+.product-preview .img{
+    height: 155px;
+    width: 100%;
+    border-radius: 10px;
+}
+.product-preview .productDetails {
+    padding: 7px 0;
+}
+.product-preview{
+    cursor: pointer;
+    border-radius: 10px;
+    border: #F2F2F2 solid 1px;
+    padding: 10px 10px;
+    position: relative;
+    background-color: #fff;
+    z-index: 0;
+}
+.product-preview-status {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-preview-status .MuiChip-root {
+    background: #444652BE;
+    border-radius: 10px;
+    color: #fff;
+    height: 27px;
+}
+.product-preview-status .MuiChip-root span {
+    font-size: 12px;
+}
+.product-preview>div{
+    margin-bottom: 10px;
+}
+.product-preview .img{
+    height: 155px;
+    width: 100%;
+    border-radius: 10px;
+}
+.product-preview .likeBtn {
+    background: #0000001A !important;
+    height: 30px;
+    width: 30px;
+}
+.product-preview .likeBtn svg {
+    color: #fff;
+    width: 18px;
+}
+.product-preview .productDetails {
+    padding: 7px 0;
+    margin: 0 !important;
+}
+.product-preview .productDetailsHead .price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+.product-preview .productDetailsHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.product-preview .header,.product-preview .footer {
+    justify-content: space-between;
+}
+.iconitems {
+    display: flex;
+    align-items: center;
+}
+.iconlist {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+.iconlist span {
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+    margin: 0 0 0 3px;
+}
+.iconlist svg{
+    width: 16px;
+    height: 16px;
+}
+.iconlist svg path {
+    fill: #c4c4c4;
+}
+.productTitle {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 7px;
+    display: block;
+}
+.location {
+    font-size: 12px;
+    color: #999999;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.location svg {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+.footer {
+    font-size: 14px;
+    color: #000000;
+}
+.footer div {
+    padding: 0;
+}
+.product-preview--map .product-preview-status {
+    top: 130px;
+}
+@media screen and (max-width: 991px) {  
+    .mobilePageTabs {
+        background: #fff;
+        position: absolute;
+        z-index: 11;
+        border-radius: 6px;
+        bottom: 55px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 50%);
+        cursor: pointer;
+        transition: all 0.5s ease;
+        display: flex;
+        left: 0;
+        right: 0;
+        width: 260px;
+      }
+}
+/* @media screen and (max-width: 991px) {   */
+    .sidebarModule {
+        width: 100%;
+        /* height: calc(100vh - 135px); */
+    }
+    .rightModule {
+        width: 100%;
+        position: absolute;
+        left: 115%;
+        transition: all 0.5s ease;
+        z-index: 1;
+        height: 100%;
+    }
+    
+      .mobilePageTabs a {
+        padding: 10px 12px;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid #ddd;
+        font-size: 14px;
+        color: #444;
+        font-weight: 500;
+        min-width: 130px;
+      }
+
+      .mainMap > div{
+        height: calc(100vh - 122px) !important;
+    }
+
+      .mobilePageTabs a:last-child {
+        border-right: none;
+      }
+      .mobilePageTabs a svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+      }
+      .sidebarTamplate.activeTabs .rightModule {
+        left: 0px;
+      }
+      .MapTab {
+        display: flex;  
+      }
+      .ListTab {
+        display: none;
+    }
+      .sidebarTamplate.activeTabs .MapTab {
+        display: none;
+      }
+     .sidebarTamplate.activeTabs .ListTab {
+        display: flex;
+      }
+/* } */
+@media screen and (max-width: 768px) {
+    .mapFilter {
+        display: none;
+    }
+}
+.markerMap{
+    height: 20px;
+    width: 20px;
+}
+/* .mainMap .gm-style > div:nth-child(2) > div:nth-child(2) div[role="button"] img {
+    border-radius: 50%;
+    background-image: url(../../assets/images/fashion1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+
+  .pin {
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50% 50% 0;
+    background: #00cae9;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+  }
+  /* .sidebarTamplate .rightModule, */
+  .sidebarTamplate .mobilePageTabs{
+    display: none !important;
+  }
+  .left .sidebarTamplate .rightModule .mapFilter,
+  .left .sidebarTamplate .rightModule .mainMap {
+    display: none !important;
+  }
+
+  @media screen and (min-width: 992px) {
+    .left {
+        overflow: initial;
+    }
+    .sidebarTamplate {
+        overflow: initial;
+        position: initial;
+    }
+    .rightModule {
+        height: calc(100vh - 64px);
+        width: calc(100vw - 500px);
+        top: 0;
+        left: 100%;
+        padding: 15px;
+        z-index: 2;
+        box-sizing: border-box;
+        overflow-y: scroll;
+    }
+    .sidebarTamplate.activeTabs .rightModule {
+        left: 100%;
+        /* width: 0; */
+    }
+  }

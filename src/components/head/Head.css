@@ -1,0 +1,195 @@
+:root{
+  --white: #fff;
+ 
+}
+.NavbarItem {
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 12%);
+  position: relative;
+  z-index: 11;
+}
+.preferenceBtn {
+  position: relative;
+}
+.preferenceBtn span {
+  background: #00A9D6;
+  height: 25px;
+  font-size: 15px;
+  padding: 5px 8px;
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 18px;
+}
+.fa-bars {
+  color: #fff;
+}
+input {
+  max-width: 220px;
+  width: auto;
+  background: #F1F1F1;
+  padding: 10px 15px 10px 38px;
+  height: 37px;
+  color: #444652;
+  font-size: 15px;
+  line-height: 18px;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+}
+.NavbarItem .input-container{ 
+  position: relative;
+}
+.preferences{
+  border-radius: 10px;
+  padding: 6px 10px 6px 42px;
+  color: #444652;
+  background-color: #E5FAFF;
+  border: 1px solid #00A9D6 !important;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.price-icon{
+  width: auto;
+  margin: 0 6px 0 0;
+  padding: 0;
+  height: 16PX;
+}
+.head-btn{
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 37px;
+  margin: 0 3px;
+  padding: 5px 8px;
+  width: auto;
+  color: #444652;
+  /* opacity: 80%; */
+  border: solid 1pt #bababa;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons{ 
+  margin-left: 5px;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  display:inline-block;
+}
+.NavbarItem .input-container .search-icon{ 
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+.filterToggleBtn {
+  display: none;
+  width: calc(50% - 5px);
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px 10px 6px;
+  color: #444652;
+  border: 1px solid #ddd !important;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 10px;
+  align-items: center;
+    justify-content: center;
+}
+.filterToggleBtn svg {
+  width: 14px;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 1200px) { 
+  input {
+    max-width: 155px;
+    font-size: 13px;
+    padding: 10px 8px 10px 25px;
+  }
+  .NavbarItem .input-container .search-icon {
+    left: 8px;
+    width: 14px;
+  }
+  .head-btn {
+    margin: 0 2px;
+    padding: 5px 5px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .filterToggleBtn {
+    display: flex;
+  }
+  .buttons {
+    display: none;
+    background: #fff;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 100%;
+    padding: 20px 15px 10px;
+    justify-content: space-between;
+    z-index: 9999;
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 12%);
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0;
+  }
+  .buttons.active {
+    display: flex;
+  }
+  .head-btn {
+    margin: 0 5px;
+    padding: 8px 10px;
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    flex-direction: revert;
+    justify-content: flex-start;
+  }
+  .NavbarItem {
+    flex-wrap: wrap;
+  }
+  .NavbarItem .input-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .input-container input {
+    width: 100%;
+    max-width: 100%;
+  }
+  .preferenceBtn {
+    width: calc(50% - 5px);
+  }
+  .preferences {
+    width: 100%;
+    padding: 6px 7px 6px 30px;
+    font-size: 13px;
+  }
+  .preferenceBtn span {
+    font-size: 12px;
+    padding: 5px 8px;
+    left: -6px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .NavbarItems {
+    position: relative;
+  }
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #1888ff;
+    transition: 250ms;
+  }
+  .nav-links-mobile:hover a{
+    color: #1888ff;
+  }
+
+}    

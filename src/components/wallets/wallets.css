@@ -1,0 +1,87 @@
+.walletTamplate {
+    padding: 60px 0;
+}
+.walletIcons {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.walletIconsBox {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 20px 0px rgb(42 134 159 / 10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 12px;
+    cursor: pointer;
+}
+.walletIconsBox svg {
+    width: 45px;
+    height: 45px;
+    fill: #00c4f8;
+}
+.walletIconsBox-title {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 5px 0 0;
+}
+.walletBtns {
+    text-align: center;
+    margin-top: 40px;
+}
+.walletBtns button {
+    max-width: 270px;
+    margin: 0 auto;
+    padding: 15px 20px !important;
+    font-size: 16px !important;
+    letter-spacing: 1px;
+}
+.moneyBlock {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.moneyBlock-title {
+    color: #454545;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+.moneyBlock-price {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+.moneyBlock .walletBtns {
+    text-align: center;
+    margin: 15px 0;
+}
+.walletTamplate .formBtn button {
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 767px){ 
+    .walletIcons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

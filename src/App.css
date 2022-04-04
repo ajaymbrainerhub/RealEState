@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body,
+html,
+#root,
+.App {
+  overflow-x: hidden;
+}
+
+.buy,
+.home,
+.login,
+.rent,
+.shop,
+.sell,
+.startforfree {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+iframe {
+  width: 0 !important;
+  height: 0 !important;
+}
+.home {
+  background-image: url("./images/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.rent {
+  background-image: url("./images/img-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sell {
+  background-image: url("./images/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 40px;
+}
+.login {
+  background-image: url("./images/img-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.startforfree {
+  background-image: url("./images/img-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.shop {
+  background-image: url("./images/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.sell {
+  background-image: url("./images/img-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+/* .agentChatFooter-Sticky {
+  position: sticky !important;
+} */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.text-center {
+  text-align: center!important;
+}
+.text-right {
+  text-align: right!important;
+}
+.text-left {
+  text-align: left!important;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.d-flex {
+  display: flex!important;
+}
+.col-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+.col-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+.vendorbanner .row {
+  position: relative;
+}
+.right {
+  width: calc(100% - 455px);
+  position: relative;
+}
+.left {
+  width: 500px;
+  height: calc(100vh - 122px);
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 25px 20px 0;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 500px;
+}
+.hidesubmenu .left {
+  height: calc(100vh - 64px);
+}
+.flex {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.img-fluid {
+  max-width: 100%;
+  width: auto;
+  cursor: pointer;
+}
+
+.left::-webkit-scrollbar {
+  width: 3px;
+}
+.left::-webkit-scrollbar-track {
+  background: #fff;
+}
+.left::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.left::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.mobilePageTabs {
+  display: none;
+}
+.flex .MapTab {
+  display: flex;
+}
+.flex .ListTab {
+  display: none;
+}
+.flex.activeTabs .MapTab {
+  display: none;
+}
+.flex.activeTabs .ListTab {
+  display: flex;
+}
+.dropBtn {
+  height: 35px;
+  width: 35px;
+}
+.scrollTamplate {
+  overflow-y: scroll;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.scrollTamplate::-webkit-scrollbar {
+  width: 3px;
+}
+.scrollTamplate::-webkit-scrollbar-track {
+  background: #fff;
+}
+.scrollTamplate::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.scrollTamplate::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@media screen and (max-width: 991px) { 
+  .left {
+    width: 100%;
+    padding: 25px 15px 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+  }
+  .right {
+    /* width: calc(100% - 370px); */
+    width: 100%;
+  }
+  .right {
+    /* overflow: hidden; */
+    transition: all 0.5s ease;
+    position: absolute;
+    z-index: 10;
+    background: #fff;
+    left: 100%;
+    width: 100%;
+  }
+  .flex.activeTabs .right {
+    left: 0px;
+  }
+  .mobilePageTabs {
+    background: #fff;
+    position: absolute;
+    z-index: 11;
+    border-radius: 6px;
+    bottom: 100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 50%);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: flex;
+    left: 0;
+    right: 0;
+    width: 300px;
+  }
+  .mobilePageTabs a {
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ddd;
+    font-size: 16px;
+    color: #444;
+    font-weight: 500;
+    min-width: 150px;
+  }
+  .mobilePageTabs a:last-child {
+    border-right: none;
+  }
+  .mobilePageTabs a svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+}
+.language-select-root button{
+  padding-right: 0;
+}
+.MuiPopover-root .MuiPopover-paper .MuiListItem-gutters.MuiListItem-button img {
+  margin-right: 8px;
+}
+@media screen and (max-width: 768px) {
+  /* .left {
+    max-width: 500px;
+    height: auto;
+    height: auto;
+  } */
+  .sidebarToggle { 
+    display: flex;
+  }
+  .language-select-root button{
+    font-size: 12px;
+  }
+}
+
+/* RTL CSS */
+body[dir="rtl"] .nav-menu {
+  margin-left: 0;
+  margin-right: 35px;  
+}
+body[dir="rtl"] .language-select-root button{
+  padding-right: 8px;
+  padding-left: 0px;
+}
+body[dir="rtl"] .price-icon {
+  margin: 0 0 0 6px;
+}
+body[dir="rtl"] .mapFilterGroup button svg {
+  margin-left: 5px;
+  margin-right: 0;
+}
+body[dir="rtl"] .iconlist span {
+  margin: 0 3px 0 0;
+}
+body[dir="rtl"] .location svg {
+  margin-right: 0;
+  margin-left: 5px;
+}
+body[dir="rtl"] .userTop-img {
+  margin-left: 15px;
+  margin-right: 0;
+}
+body[dir="rtl"] .userHeadBanner {
+  margin-left: 0px;
+  margin-right: -20px;
+}
+body[dir="rtl"] .UseraboutList-info {
+  padding-left: 0;
+  padding-right: 12px;
+}
+body[dir="rtl"] .userProductsBox-Img {
+  margin-right: 0;
+  margin-left: 15px;
+}
+body[dir="rtl"] .newsLetter-form button {
+  margin-left: 0;
+  margin-right: 15px;
+}
+body[dir="rtl"] .appoimentModule-userimg {
+  margin-right: 0;
+  margin-left: 15px;
+}
+body[dir="rtl"] .headInfoUser h1 {
+  margin-left: 0;
+  margin-right: 15px;
+}
+body[dir="rtl"] .moreDetails {
+  margin-left: 0;
+  margin-right: 12px;
+}
+body[dir="rtl"] .helpInfo svg {
+  margin-right: 0;
+  margin-left: 10px;
+}
+body[dir="rtl"] .neighborhood-details-img {
+  margin-left: 0;
+  margin-right: 15px;
+}
+body[dir="rtl"] .iconHeading-info {
+  margin-left: 0;
+  margin-right: 15px;
+}
+body[dir="rtl"] .card {
+  text-align: right;
+}
+body[dir="rtl"] .product-details .imgg {
+  margin-left: 0px;
+  margin-right: -20px;
+}
+body[dir="rtl"] .caseback-box {
+  margin-left: 15px;
+  margin-right: 0;
+}
+body[dir="rtl"] .category-box {
+  margin: 5px 2px 5px 12px;
+}
+body[dir="rtl"] .featuredProduct-box {
+  margin-right: 0;
+  margin-left: 15px;
+}
+body[dir="rtl"] .menuUser-img {
+  margin-right: 0;
+  margin-left: 15px;
+}
+body[dir="rtl"] .menuList-img {
+  margin-right: 0;
+  margin-left: 15px;
+}
+body[dir="rtl"] .menufooterLink svg {
+  margin-right: 0;
+  margin-left: 8px;
+}
+body[dir="rtl"] .registerForm-loginBtn {
+  margin-right: 0 !important;
+  margin-left: 15px !important;
+}
+body[dir="rtl"] .CheckLinkBlock .MuiCheckbox-root {
+  margin-right: 0;
+  margin-left: 8px;
+}
+body[dir="rtl"] .sugession-AnsBtn {
+  margin-right: 0;
+  margin-left: 8px;
+}
+body[dir="rtl"] .sendBlockOptions button {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+body[dir="rtl"] .agentProfileBox-heading {
+  margin-left: 0px;
+  margin-right: 15px;
+}
+body[dir="rtl"] .settings .userBlock-img {
+  margin-right: 0;
+  margin-left: 15px;
+}
+body[dir="rtl"] .settingsListItem-icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+body[dir="rtl"] .userProfile-infoImage {
+  margin-right: 0;
+  margin-left: 15px;
+}
+body[dir="rtl"] .userProfile .top svg {
+  margin-right: 0;
+  margin-left: 10px;
+}
+body[dir="rtl"] .vendorbanner-brandImg {
+  margin-right: 0;
+  margin-left: 20px;
+}
+body[dir="rtl"] .productDetails-brandImage {
+  margin-right: 0;
+  margin-left: 12px;
+}
+body[dir="rtl"] .mobilePageTabs a svg {
+  margin-right: 0;
+  margin-left: 5px;
+}
+body[dir="rtl"] .product-box__infoTop {   
+  flex-direction: row-reverse;
+}
+body[dir="rtl"] .MuiPopover-root .MuiPopover-paper .MuiListItem-gutters.MuiListItem-button img {
+  margin-right: 0;
+  margin-left: 8px;
+}
+body[dir="rtl"] .vendorContent-title{
+  font-size: 20px;
+}
+body[dir="rtl"] .input-container input,
+body[dir="rtl"] .preferences,
+body[dir="rtl"] .filterToggleBtn,
+body[dir="rtl"] .nav-links,
+body[dir="rtl"] .sidebarMainList .react-tabs__tab,
+body[dir="rtl"] .mapFilterGroup button,
+body[dir="rtl"] .UserContactInfo-box span,
+body[dir="rtl"] .UseraboutList-title,
+body[dir="rtl"] .UseraboutList-info p,
+body[dir="rtl"] .Contactform-form input,
+body[dir="rtl"] .newsLetter-form button,
+body[dir="rtl"] .appoimentModuleblock-title,
+body[dir="rtl"] .successModule-mainbutton,
+body[dir="rtl"] .desc h3,
+body[dir="rtl"] .module-heading__title,
+body[dir="rtl"] .module-heading__link,
+body[dir="rtl"] .vendorbanner-brandTitle,
+body[dir="rtl"] .vendorbanner-brandSubtitle,
+body[dir="rtl"] .blueBtn,
+body[dir="rtl"] .menufooterLink,
+body[dir="rtl"] .center-col-Title,
+body[dir="rtl"] .userProfile .data-text,
+body[dir="rtl"] .agentSearch input,
+body[dir="rtl"] .userBlock-subTitle, body[dir="rtl"] .userBlock-subText,
+body[dir="rtl"] .settings .btnEdit,
+body[dir="rtl"] .language-select-root button {
+  font-size: 18px;
+}
+body[dir="rtl"] .head-btn{
+  font-size: 15px;
+}
+body[dir="rtl"] .new-icons span,
+body[dir="rtl"] .sugession-AnsBtn,
+.reciveBlockBtn{
+  font-size: 16px;
+}
+body[dir="rtl"] .productDetails-heading {
+  justify-content: flex-start;
+}
+body[dir="rtl"] .userProductsBox-info button,
+body[dir="rtl"] .Contactform-text,
+body[dir="rtl"] .appoimentModuleblock-chooseBtn button,
+body[dir="rtl"] .location,
+body[dir="rtl"] .desc p,
+body[dir="rtl"] .card p,
+body[dir="rtl"] .neighborhood-infoLink,
+body[dir="rtl"] .helpInfo > p,
+body[dir="rtl"] .input,
+body[dir="rtl"] .sNav,
+body[dir="rtl"] .sidebarHeading .MuiChip-root,
+body[dir="rtl"] .userTop-desc,
+body[dir="rtl"] .appoimentModule-userdesc,
+body[dir="rtl"] .successModule-text,
+body[dir="rtl"] .categoriesSliderTabs button,
+body[dir="rtl"] .userProfile-infosettings,
+body[dir="rtl"] .userProfile-infojob
+body[dir="rtl"] input,
+body[dir="rtl"] .sendBlockOptions button {
+  font-size: 17px;
+}
+
+@media screen and (max-width: 991px) {
+  [dir="rtl"] .filterToggleBtn {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  [dir="rtl"] .filterToggleBtn svg {
+    margin-left: 8px;
+    margin-right: 0px;
+  }
+  [dir="rtl"] .preferences {
+    padding: 6px 30px 6px 7px;
+  }
+  [dir="rtl"] .preferenceBtn span {
+    right: 16px;
+    left: auto; 
+  }
+  [dir="rtl"] .nav-links {
+    text-align: right;
+  }
+  button {
+    align-items: center;
+  }
+}
+.d-none {
+  display: none!important;
+}
+@media screen and (min-width: 992px) { 
+  .headerRight .d-lg-none {
+    display: none!important;
+  }
+}

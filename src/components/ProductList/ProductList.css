@@ -1,0 +1,14 @@
+.product-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 0 0 28px;
+}
+@media screen and (max-width: 600px) { 
+  .product-list{
+    display: block;
+  }
+  .product-preview {
+    margin-bottom: 10px;
+  }
+}

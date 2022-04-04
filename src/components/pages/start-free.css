@@ -1,0 +1,181 @@
+
+.wrap>div> *:focus{
+  border: solid #00a9d6 2px ;
+  outline: none;
+  
+}
+.wrap>div>input {
+  border: solid 2px rgb(189, 189, 189);
+}
+
+.wrap>div>textarea select{
+  border: solid 2px rgb(189, 189, 189);
+}
+
+/* input[type=text]:focus { */
+  /* border: 5px solid rgb(214, 0, 0); */
+/* } */
+
+.wrap {
+  background-color: white;
+  height: 700px;
+  width: 100%;
+  /* border: wheat solid 3px; */
+}
+
+
+.namee {
+  background-color: #fff;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.namee > input {
+  background-color: #fff;
+  padding: 5px 5px;
+  width: 50%;
+  margin: 10px 15px 10px 15px;
+  border-radius: 15pt;
+  height: 50px;
+  font-size: 15px;
+ 
+}
+
+.pass {
+  background-color: #fff;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+.pass > input {
+  background-color: #fff;
+  padding: 5px 5px;
+width: 50%;
+margin: 10px 15px 10px 15px;
+border-radius: 15pt;
+height: 50px;
+font-size: 15px;
+}
+.info{
+  background-color: #fff;
+ display: flex;
+padding: 5px;
+/* justify-content: center; */
+align-items: center;
+}
+.info > div {
+  width: 100%;
+}
+.age {
+  background-color: #fff;
+  padding: 5px 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-size: 15px;
+  margin: 10px 15px 10px 15px;
+}
+.phone {
+  background-color: #fff;
+  padding: 5px 5px;
+  width: 27%;
+  margin: 10px 15px 10px 15px;
+  border-radius: 15pt;
+  font-size: 15px;
+  height: 50px;
+}
+
+.selected {
+  background-color: #fff;
+ padding: 5px 5px;
+ width: 50%;
+ margin: 10px 15px 10px 15px;
+ border-radius: 15pt;
+ height: 50px;
+ font-size: 15px;
+ 
+}
+
+.email {
+  background-color: #fff;
+  /* width: 90%; */
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+
+}
+.mail {
+  background-color: #fff;
+  padding: 5px 5px;
+width: 100%;
+margin: 10px 15px 10px 15px;
+border-radius: 15pt;
+font-size: 15px;
+height: 50px;
+}
+
+.yourself {
+  background-color: #fff;
+  display: grid;
+  padding: 10px;
+  margin: 5px 5px;
+}
+.about{
+  background-color: #fff;
+font-size: 18px;
+margin: 10px 15px 10px 15px;
+border-radius: 15pt;
+padding: 5px 5px;
+
+}
+.story{
+  background-color: #fff;
+  margin: 10px 15px 10px 15px;
+border-radius: 15pt;
+font-size: 15px;
+padding: 5px 5px;
+}
+.btn-btn{
+  background-color: #fff;
+  display: flex;
+padding: 5px;
+margin: 5px;
+}
+.lin{
+  background-color: rgb(189, 189, 189);
+  padding: 5px 5px;
+  width: 30%;
+  margin: 10px 15px  10px 15px;
+  border-radius: 15pt;
+  height: 50px;
+  font-size: 15px;
+  
+}
+.sfree{
+background-color: #00a9d6;
+padding: 5px 5px;
+width: 70%;
+margin: 10px 15px 10px 15px;
+border-radius: 15pt;
+height: 50px;
+font-size: 15px;
+
+}
+.checkbooox{
+  padding: 10px 10px 10px 10px;
+  height: 22px;
+  width: 10%;
+}
+.labeel{
+  width: 90%;
+}
+.agree{
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: flex-end;
+
+}
